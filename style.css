@@ -9,11 +9,11 @@
     margin: 0;
     padding: 0;
     border: 1px solid yellow;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Barlow', sans-serif;
+    width: 100%;
 
 }
 
