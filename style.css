@@ -8,6 +8,8 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid yellow;
+    box-sizing: border-box;
 }
 
 body {
@@ -81,10 +83,11 @@ body {
 
 .info-section-text div {
     width: 60%;
-    padding: 5.5rem;
+    padding-left: 5.5rem;
 
 }
-#zzz{
+
+#zzz {
     flex-direction: row-reverse;
 }
 
@@ -214,21 +217,23 @@ body {
     margin-top: 7rem;
 }
 
-#images-1{
-    display: flex;
-    width: 50%;
-}
-#images-2{
+#images-1 {
     display: flex;
     width: 50%;
 }
 
-#images-1 img{
+#images-2 {
+    display: flex;
     width: 50%;
 }
-#images-2 img{
+
+#images-1 img {
     width: 50%;
-} 
+}
+
+#images-2 img {
+    width: 50%;
+}
 
 
 #footer {
@@ -262,11 +267,7 @@ body {
 
 }
 
-@media screen and (min-width:768px) {
-    #rev{
-        flex-direction: row-reverse;
-    }
-}
+
 
 
 @media screen and (max-width: 768px) {
@@ -279,26 +280,37 @@ body {
         flex-direction: column-reverse;
     }
 
-    #services{
+    #services {
         flex-direction: column;
     }
-    #cards{
+
+    #cards {
         flex-direction: column;
         align-items: center;
-        
-    }
-    .cards{
-        margin: 2rem 0;
+        border: 1px magenta solid;
+
     }
 
-    #pictures{
+    .cards {
+        margin: 2rem 0;
+        width: 100%;
+    }
+
+    .cards p {
+        width: 100%;
+    }
+
+
+    #pictures {
         flex-direction: column;
 
     }
-    #images-1{
+
+    #images-1 {
         width: 100%;
     }
-    #images-2{
+
+    #images-2 {
         width: 100%;
     }
 
@@ -314,3 +326,9 @@ body {
    
     padding: 10rem;
 } */
+
+@media screen and (min-width:768px) {
+    #rev {
+        flex-direction: row-reverse;
+    }
+}
