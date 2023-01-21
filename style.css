@@ -4,13 +4,15 @@
 
 
 
+
 * {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Barlow', sans-serif;
-    
+
 }
 
 #navbar {
@@ -19,7 +21,7 @@ body{
     align-items: center;
     background-color: rgb(70, 192, 252);
     padding: 1rem 0.8rem;
- 
+
 }
 
 #navbar ul {
@@ -27,26 +29,27 @@ body{
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .nav-links {
     text-decoration: none;
     color: white;
 }
-#btn-nav{
+
+#btn-nav {
     border: white 1px solid;
     border-radius: 1rem;
     padding: 0.5rem 1.5rem;
     background-color: white;
 }
 
-#btn-nav a{
+#btn-nav a {
     color: black;
     text-decoration: none;
 }
 
-#main h1{
+#main h1 {
     background-color: rgb(70, 192, 252);
     padding: 3rem;
     height: 28.125rem;
@@ -57,40 +60,45 @@ body{
     letter-spacing: 0.8rem;
 }
 
-.info-section{
+.info-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.info-section img{
+.info-section img {
     width: 100%;
 }
 
-.info-section-img{
+.info-section-img {
     flex: 1;
 }
 
-.info-section-text{
+.info-section-text {
     flex: 1;
+
 }
 
-.info-section-text div{
+.info-section-text div {
     width: 60%;
     padding: 5.5rem;
+
+}
+#zzz{
+    flex-direction: row-reverse;
 }
 
-.info-section-text h2{
+.info-section-text h2 {
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.info-section-text p{
+.info-section-text p {
     margin: 1rem 0;
 
 }
 
-.info-section-text a{
+.info-section-text a {
     color: black;
     text-decoration: none;
     font-size: 1.25rem;
@@ -98,10 +106,12 @@ body{
     text-transform: uppercase;
 
 }
-.red-link{
+
+.red-link {
     text-shadow: 10px 10px 10px red;
 }
-.orange-link{
+
+.orange-link {
     text-shadow: 10px 10px 10px #e2d81f;
 
 }
@@ -110,42 +120,42 @@ body{
 
 /*  before team! */
 
-#services{
+#services {
     display: flex;
     justify-content: space-between;
 }
 
-#services div{
+#services div {
     flex: 1;
     max-height: 26rem;
     padding-top: 18rem;
 }
 
-#first{
+#first {
     background-image: url(./images/desktop/image-graphic-design.jpg);
-    background-repeat: no-repeat;
-
 }
 
-#second{
+#second {
     background-image: url(./images/desktop/image-photography.jpg);
-    
+
 }
 
-.service-text{
+.service-text {
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-  
+
 }
-.service-text h2{
+
+.service-text h2 {
     margin-top: 4rem;
     font-weight: 700;
     color: teal;
 }
-.service-text p{
+
+.service-text p {
     width: 55%;
     text-align: center;
     color: teal;
@@ -157,13 +167,13 @@ body{
 
 /* team */
 
-#team{
+#team {
     margin: 3rem 0;
-    padding: 2rem 0.8rem; 
+    padding: 2rem 0.8rem;
     text-align: center;
 }
 
-#team h2{
+#team h2 {
     color: gray;
     letter-spacing: 0.625rem;
     text-align: center;
@@ -172,20 +182,20 @@ body{
 }
 
 
-#cards{
+#cards {
     display: flex;
     margin-top: 2rem;
     justify-content: center;
     justify-content: space-between;
 }
 
-.cards img{
+.cards img {
     width: 3.75rem;
     height: 3.75rem;
     border-radius: 50%;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,22 +203,35 @@ body{
     width: 28%;
 }
 
-.cards p{
+.cards p {
     font-size: 1.1rem;
     text-align: center;
     color: rgb(35, 35, 35);
 }
 
-#pictures{
+#pictures {
     display: flex;
-    justify-content: space-between;
     margin-top: 7rem;
 }
-#pictures img{
-    width: 25%;
+
+#images-1{
+    display: flex;
+    width: 50%;
+}
+#images-2{
+    display: flex;
+    width: 50%;
 }
 
-#footer{
+#images-1 img{
+    width: 50%;
+}
+#images-2 img{
+    width: 50%;
+} 
+
+
+#footer {
     background-color: rgb(146, 212, 197);
     display: flex;
     flex-direction: column;
@@ -217,31 +240,71 @@ body{
 
 }
 
-#footer img{
+#footer img {
 
     height: 1.875rem;
 }
 
-#links-footer{
+#links-footer {
     display: flex;
     gap: 2rem;
     margin: 3rem 0;
 }
 
-#social-media{
+#social-media {
     display: flex;
     gap: 1rem;
 }
 
-#links-footer a{
+#links-footer a {
     color: rgb(30, 119, 99);
     text-decoration: none;
 
 }
 
+@media screen and (min-width:768px) {
+    #rev{
+        flex-direction: row-reverse;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #navbar ul {
+        display: none;
+    }
+
+    .info-section {
+        flex-direction: column-reverse;
+    }
+
+    #services{
+        flex-direction: column;
+    }
+    #cards{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cards{
+        margin: 2rem 0;
+    }
+
+    #pictures{
+        flex-direction: column;
+
+    }
+    #images-1{
+        width: 100%;
+    }
+    #images-2{
+        width: 100%;
+    }
 
 
 
+}
 
 
 
