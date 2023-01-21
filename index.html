@@ -1,141 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <div id="main">
-    <div id="navbar">
-      <img src="./images/logo.svg" alt="">
-      <ul>
-        <li><a class="nav-links" href="#">About</a></li>
-        <li><a class="nav-links" href="#">Services</a></li>
-        <li><a class="nav-links" href="#">Projects</a></li>
-        <li><button id="btn-nav"> <a href="#">Contact</a> </button></li>
-      </ul>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="navbar">
+        <img src="./images/logo.svg" alt="" />
+        <ul>
+          <li><a class="nav-links" href="#">About</a></li>
+          <li><a class="nav-links" href="#">Services</a></li>
+          <li><a class="nav-links" href="#">Projects</a></li>
+          <li>
+            <button id="btn-nav"><a href="#">Contact</a></button>
+          </li>
+        </ul>
+      </div>
+      <h1>We are creatives</h1>
     </div>
-    <h1>We are creatives</h1>
-  </div>
 
-  <div class="info-section">
-    <div class="info-section-text">
-      <div>
-        <h2>Transform your brand</h2>
-        <p>
-          We are a full-service creative agency specializing in helping brands grow fast. 
-          Engage your clients through compelling visuals that do most of the marketing for you.
-        </p>
-        <a class="orange-link" href="#">Learn more</a>
+    <div class="info-section">
+      <div class="info-section-text">
+        <div>
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="orange-link" href="#">Learn more</a>
+        </div>
+      </div>
+
+      <div class="info-section-img">
+        <img src="./images/desktop/image-transform.jpg" alt="" />
       </div>
     </div>
 
-
-    <div class="info-section-img">
-      <img src="./images/desktop/image-transform.jpg" alt="">
-    </div>
-  </div>
-
-
     <div class="info-section">
-
       <div class="info-section-img">
-        <img src="./images/desktop/image-stand-out.jpg" alt="">
+        <img src="./images/desktop/image-stand-out.jpg" alt="" />
       </div>
 
       <div class="info-section-text">
         <div>
-
           <h2>Stand out to the right audience</h2>
-          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
           </p>
           <a class="red-link" href="#">Learn more</a>
         </div>
-
       </div>
-
     </div>
 
-    <div>
-      <div>
+    <div id="services">
+      <div class="service-text" id="first">
+        <h2>Graphic design</h2>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
 
         <!-- <div>
           <img src="./images/desktop/image-graphic-design.jpg" alt="">
         </div> -->
-
-        <div>
-          <h2>Graphic design</h2>
-          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-        </div>
-
       </div>
 
-      <div>
+      <div class="service-text" id="second">
+        <h2>Photography</h2>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
         <!-- <div>
           <img src="./images/desktop/image-photography.jpg" alt="">
         </div> -->
-        <div>
-          <h2>Photography</h2>
-          <p> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-        </div>
       </div>
-
     </div>
 
 
-
-    <div>
+    <div id="team">
       <h2>Client testimonials</h2>
 
-      <div>
-
-        <div>
-          <img src="./images/image-emily.jpg" alt="">
+      <div id="cards">
+        <div class="cards">
+          <img src="./images/image-emily.jpg" alt="" />
           <p>
-            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
           </p>
-          <h5>Emily R.</h5>
-          <h6>Marketing Director</h6>
+          <div>
+            <h5>Emily R.</h5>
+            <h6>Marketing Director</h6>
+          </div>
         </div>
 
-        <div>
-          <img src="./images/image-thomas.jpg" alt="">
-          <p> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-          <h5>Thomas S.</h5>
-          <h6> Chief Operating Officer</h6>
-        </div>
-
-        <div>
-          <img src="./images/image-jennie.jpg" alt="">
+        <div class="cards">
+          <img src="./images/image-thomas.jpg" alt="" />
           <p>
-            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-          <h5>Jennie F.</h5>
-          <h6>Business Owner</h6>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <div>
+            <h5>Thomas S.</h5>
+            <h6> Chief Operating Officer</h6>
+          </div>
         </div>
 
+        <div class="cards">
+          <img src="./images/image-jennie.jpg" alt="" />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <div>
+            <h5>Jennie F.</h5>
+            <h6>Business Owner</h6>  
+          </div>
+
+        </div>
       </div>
     </div>
 
-
-
-
-    <div>
-      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
-      <img src="images/desktop/image-gallery-orange.jpg" alt="">
-      <img src="images/desktop/image-gallery-cone.jpg" alt="">
-      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    <div id="pictures">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
+      <img src="images/desktop/image-gallery-orange.jpg" alt="" />
+      <img src="images/desktop/image-gallery-cone.jpg" alt="" />
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
     </div>
 
     <div>
@@ -144,12 +160,11 @@
       <a href="#">Services</a>
       <a href="#">Projects</a>
       <div>
-        <img src="./images/icon-facebook.svg" alt="">
-        <img src="./images/icon-instagram.svg" alt="">
-        <img src="./images/icon-twitter.svg" alt="">
-        <img src="./images/icon-pinterest.svg" alt="">
+        <img src="./images/icon-facebook.svg" alt="" />
+        <img src="./images/icon-instagram.svg" alt="" />
+        <img src="./images/icon-twitter.svg" alt="" />
+        <img src="./images/icon-pinterest.svg" alt="" />
       </div>
     </div>
-
-</body>
+  </body>
 </html>
