@@ -202,10 +202,41 @@ body{
 #pictures{
     display: flex;
     justify-content: space-between;
-    margin-top: ;
+    margin-top: 7rem;
 }
 #pictures img{
     width: 25%;
+}
+
+#footer{
+    background-color: rgb(146, 212, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+
+}
+
+#footer img{
+
+    height: 1.875rem;
+}
+
+#links-footer{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+#social-media{
+    display: flex;
+    gap: 1rem;
+}
+
+#links-footer a{
+    color: rgb(30, 119, 99);
+    text-decoration: none;
+
 }
 
 
