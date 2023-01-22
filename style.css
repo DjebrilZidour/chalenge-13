@@ -119,7 +119,7 @@ header h1 {
 .text-info h2{
     font-weight: bold;
     font-size: 3.5rem;
-    width: 60%;
+    width: 80%;
 
 }
 
@@ -149,6 +149,104 @@ header h1 {
 
 
 }
+
+
+#services {
+    display: flex;
+    justify-content: space-between;
+}
+#services div {
+    flex: 1;
+    max-height: 26rem;
+    padding-top: 18rem;
+}
+#first {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+}
+#second {
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+}
+.service-text {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.service-text h2 {
+    margin-top: 4rem;
+    font-weight: 700;
+    color: teal;
+}
+.service-text p {
+    width: 80%;
+    text-align: center;
+    color: teal;
+}
+
+
+
+
+#team {
+    margin: 3rem 0;
+    padding: 2rem 0.8rem;
+    text-align: center;
+}
+#team h2 {
+    color: gray;
+    letter-spacing: 0.625rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+} 
+
+
+#team-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+.cards img {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+}
+.cards {
+    width: 25%;
+}
+.cards p {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(35, 35, 35);
+    margin: 1rem 0;
+}
+
+
+/* TODO #pictures {
+    display: flex;
+    margin-top: 7rem;
+}
+
+#images-1 {
+    display: flex;
+    width: 50%;
+}
+#images-2 {
+    display: flex;
+    width: 50%;
+}
+#images-1 img {
+    width: 50%;
+}
+#images-2 img {
+    width: 50%;
+TODO}  */
+
 
 @media screen and (min-width: 768px){
     #burger{
@@ -205,10 +303,36 @@ header h1 {
     }
 
 
+    #services{
+        flex-direction: column;
+    }
 
 
 
 }
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
