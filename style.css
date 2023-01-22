@@ -207,8 +207,8 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 2rem;
-    padding-top: 2rem;
+    padding: 2rem 7rem;
+
 }
 .cards img {
     width: 3.75rem;
@@ -306,6 +306,21 @@ TODO}  */
     #services{
         flex-direction: column;
     }
+
+    #team-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .cards {
+        padding: 0;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    
 
 
 
