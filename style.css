@@ -113,7 +113,7 @@ header h1 {
     align-content: center;
 }
 .text-info div{
-    width: 90%;
+    width: 70%;
     padding-left: 5.5rem;
 }
 .text-info h2{
@@ -227,9 +227,7 @@ header h1 {
     align-items: center;
     background-color: rgb(70, 192, 252);
     padding: 1rem 0.8rem;
-
 }
-
 #navbar ul {
     display: flex;
     justify-content: space-between;
@@ -237,24 +235,20 @@ header h1 {
     list-style: none;
     gap: 1rem;
 }
-
 .nav-links {
     text-decoration: none;
     color: white;
 }
-
 #btn-nav {
     border: white 1px solid;
     border-radius: 1rem;
     padding: 0.5rem 1.5rem;
     background-color: white;
 }
-
 #btn-nav a {
     color: black;
     text-decoration: none;
 }
-
 #main h1 {
     background-color: rgb(70, 192, 252);
     padding: 3rem;
@@ -265,55 +259,41 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 0.8rem;
 }
-
 .info-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .info-section img {
     width: 100%;
 }
-
 .info-section-img {
     flex: 1;
 }
-
 .info-section-text {
     flex: 1;
-
 }
-
 .info-section-text div {
     width: 60%;
     padding-left: 5.5rem;
-
 }
-
 #zzz {
     flex-direction: row-reverse;
 }
-
 .info-section-text h2 {
     font-size: 2.5rem;
     font-weight: 800;
 }
-
 .info-section-text p {
     margin: 1rem 0;
-
 }
-
 .info-section-text a {
     color: black;
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
-
 }
-
  */
 
 
@@ -324,47 +304,34 @@ header h1 {
     display: flex;
     justify-content: space-between;
 }
-
 #services div {
     flex: 1;
     max-height: 26rem;
     padding-top: 18rem;
 }
-
 #first {
     background-image: url(./images/desktop/image-graphic-design.jpg);
 }
-
 #second {
     background-image: url(./images/desktop/image-photography.jpg);
-
 }
-
 .service-text {
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-
 }
-
 .service-text h2 {
     margin-top: 4rem;
     font-weight: 700;
     color: teal;
 }
-
 .service-text p {
     width: 55%;
     text-align: center;
     color: teal;
 }
-
-
-
-
-
 /* team */
 
 /* #team {
@@ -372,7 +339,6 @@ header h1 {
     padding: 2rem 0.8rem;
     text-align: center;
 }
-
 #team h2 {
     color: gray;
     letter-spacing: 0.625rem;
@@ -388,13 +354,11 @@ header h1 {
     justify-content: center;
     justify-content: space-between;
 }
-
 .cards img {
     width: 3.75rem;
     height: 3.75rem;
     border-radius: 50%;
 }
-
 .cards {
     display: flex;
     flex-direction: column;
@@ -402,97 +366,75 @@ header h1 {
     gap: 1rem;
     width: 28%;
 }
-
 .cards p {
     font-size: 1.1rem;
     text-align: center;
     color: rgb(35, 35, 35);
 }
-
 #pictures {
     display: flex;
     margin-top: 7rem;
 }
-
 #images-1 {
     display: flex;
     width: 50%;
 }
-
 #images-2 {
     display: flex;
     width: 50%;
 }
-
 #images-1 img {
     width: 50%;
 }
-
 #images-2 img {
     width: 50%;
 }
-
-
 #footer {
     background-color: rgb(146, 212, 197);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
-
 }
-
 #footer img {
-
     height: 1.875rem;
 }
-
 #links-footer {
     display: flex;
     gap: 2rem;
     margin: 3rem 0;
 }
-
 #social-media {
     display: flex;
     gap: 1rem;
 }
-
 #links-footer a {
     color: rgb(30, 119, 99);
     text-decoration: none;
-
 } */
 
 
 
 /* 
 @media screen and (max-width: 768px) {
-
     #navbar ul {
         display: none;
     }
-
     .info-section {
         flex-direction: column-reverse;
     }
-
     #services {
         flex-direction: column;
     }
-
     #cards {
         flex-direction: column;
         align-items: center;
         border: 1px magenta solid;
-
     }
-
     .cards {
         margin: 2rem 0;
         width: 100%;
     }
-
     .cards p {
         /* width: 100%; 
     }
@@ -501,13 +443,10 @@ header h1 {
 
 /* #pictures {
     flex-direction: column;
-
 }
-
 #images-1 {
     width: 100%;
 }
-
 #images-2 {
     width: 100%;
 }
