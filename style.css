@@ -8,16 +8,111 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid yellow;
+
 }
 
 body {
     font-family: 'Barlow', sans-serif;
-    width: 100%;
+
 
 }
 
-#navbar {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 214, 214);
+    padding: 1rem 0.5rem;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav button {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+}
+
+
+#btn-link {
+    color: black;
+}
+
+/* header */
+
+header {
+    height: 28.125rem;
+    width: 100%;
+    background-color: rgb(0, 214, 214);
+
+}
+
+header h1 {
+    
+    text-transform: uppercase;
+ 
+    color: white;
+    letter-spacing: 0.8rem;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+
+/* first-section */
+
+#first-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#second-container{
+    display: flex;
+}
+.info-section div{
+    flex: 1;
+}
+
+.info-section img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    #burger{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    nav ul{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,7 +217,7 @@ body {
 
 
 /*  before team! */
-
+/* 
 #services {
     display: flex;
     justify-content: space-between;
@@ -170,7 +265,7 @@ body {
 
 /* team */
 
-#team {
+/* #team {
     margin: 3rem 0;
     padding: 2rem 0.8rem;
     text-align: center;
@@ -182,9 +277,9 @@ body {
     text-align: center;
     font-size: 1.5rem;
     text-transform: uppercase;
-}
+} */
 
-
+/* 
 #cards {
     display: flex;
     margin-top: 2rem;
@@ -265,11 +360,11 @@ body {
     color: rgb(30, 119, 99);
     text-decoration: none;
 
-}
+} */
 
 
 
-
+/* 
 @media screen and (max-width: 768px) {
 
     #navbar ul {
@@ -297,38 +392,36 @@ body {
     }
 
     .cards p {
-        width: 100%;
-    }
+        /* width: 100%; */
+}
 
 
-    #pictures {
-        flex-direction: column;
+#pictures {
+    flex-direction: column;
 
-    }
+}
 
-    #images-1 {
-        width: 100%;
-    }
+#images-1 {
+    width: 100%;
+}
 
-    #images-2 {
-        width: 100%;
-    }
+#images-2 {
+    width: 100%;
+}
 
 
 
 }
 
-
-
-
+*/
 /* #main{
     background-image: url(./images/desktop/image-header.jpg);
    
     padding: 10rem;
 } */
 
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
     #rev {
         flex-direction: row-reverse;
     }
-}
+} */
