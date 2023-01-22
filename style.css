@@ -68,9 +68,7 @@ header {
 }
 
 header h1 {
-    
     text-transform: uppercase;
- 
     color: white;
     letter-spacing: 0.8rem;
     font-size: 2.5rem;
@@ -129,7 +127,7 @@ header h1 {
 
 .text-info p{
     color: gray;
-    width: 60%;
+    width: 70%;
     margin: 2rem 0;
   
 }
@@ -163,7 +161,8 @@ header h1 {
     }
 
     #first-container{
-        flex-direction: column;
+        flex-direction: column ;
+
     }
 
     #second-container{
@@ -180,6 +179,7 @@ header h1 {
     .text-info{
         margin: 2rem 0;
         
+        
     }
 
     .text-info h2{
@@ -187,13 +187,21 @@ header h1 {
         width: 100%;
     }
 
-    .text-info p{
+    .text-info {
         width: 100%;
     }
 
     .text-info div{
         padding: 0;
+        margin: 0;
         width: 100%;
+        text-align: center;
+    }
+
+    .text-info-inern-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 
