@@ -369,6 +369,9 @@
       btnMonileMenu.addEventListener("click", function(){
         if (mobileMenu.style.display === "none") {
           mobileMenu.style.display = "flex";
+          setTimeout(function(){
+            mobileMenu.style.display = "none";
+          },5000)
         }else{
           mobileMenu.style.display = "none";
         }
